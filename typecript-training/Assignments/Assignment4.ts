@@ -6,8 +6,8 @@ let studentsTotalMarksArray: number [] = [];
 let totalMarks : number = 0;
 for ( let i:number = 0; i<=2; i++)
 {
-  studentsTotalMarksArray[i] =  sum+ studentsMark[i] ;
-   totalMarks = totalMarks + studentsTotalMarksArray[i];
+  studentsTotalMarksArray[i] =  sum+ studentsMark[i]! ;
+   totalMarks = totalMarks + studentsTotalMarksArray[i]!;
    
 }
 
